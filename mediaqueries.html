@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="welcome to the I.DAD group">
+    <title>Media Queries</title>
+<style>
+       body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: gray;
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+       }
+       h1{
+        display:none;
+       }
+       /*smartphone*/
+       @media only screen and (max-width:400px){
+        body{
+            background: red;
+
+        }
+        #smartphone h1{
+            display:block;
+        }
+       }
+
+              /*tablet*/
+       @media(min-width: 401px) and (max-width:600px){
+        body{
+            background: purple;
+
+        }
+        #tablet h1{
+            display:block;
+        }
+       }
+
+
+              /*nromal*/
+       @media(min-width:601px) and (max-width:700px){
+        body{
+            background: green;
+
+        }
+        #normal h1{
+            display:block;
+        }
+       }
+
+              /*widescreen*/
+       @media(min-width: 701px){
+        body{
+            background: black;
+
+        }
+        #widescreen h1{
+            display:block;
+        }
+       }
+
+
+                     /*landscape*/
+       @media(max-height: 500px){
+        body{
+            background: orange;
+
+        }
+        #landscape h1{
+            display:block;
+        }
+       }
+
+
+</style>
+  <!-- link <rel="stylesheet" media="screen and (max-width: 768px)"  href="style.css"> -->
+
+</head>
+
+<body>
+    <div id="widescreen"><h1>Widescreen</h1></div>
+     <div id="normal"><h1>normal</h1></div>
+     <div id="tablet"><h1>tablet</h1></div>
+     <div id="smartphone"><h1>smartphone</h1></div>
+     <div id="landscape"><h1>landscape</h1></div>
+
+    
+</body>
+</html>
