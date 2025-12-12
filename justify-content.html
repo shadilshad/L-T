@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-Alignment</title>
+    <style>
+        #container1{
+            display:flex;
+            justify-content: flex-start;
+
+        }
+     .item{
+        background: #f4f4f4;
+        border: #ccc solid 1px;
+        padding:1rem;
+        text-align: center;
+        margin : 0.7rem;
+        width:300px;
+     }
+        #container2{
+            display:flex;
+            justify-content: flex-end;
+        }
+
+            #container3{
+            display:flex;
+            justify-content: center;
+        }
+
+            #container4{
+            display:flex;
+            justify-content: space-around;
+        }
+
+                    #container5{
+            display:flex;
+            justify-content: space-between;
+        }
+
+    body{
+        background: #555;;
+    }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Justify Content: Flex Start</h1>
+        <div id="container1">
+    <div class="item item-1"><h3>Item 1</h3></div>
+    <div class="item item-2"><h3>Item 2</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+    </div>
+    </section>
+
+    <Section>
+       <h1>Justify Content: Flex-End</h1> 
+        <div id="container2">
+    <div class="item item-1"><h3>Item 1</h3></div>
+    <div class="item item-2"><h3>Item 2</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+    </div>
+</Section>
+
+
+    <Section>
+       <h1>Justify Content: Space Around</h1> 
+        <div id="container4">
+    <div class="item item-1"><h3>Item 1</h3></div>
+    <div class="item item-2"><h3>Item 2</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+    </div>
+
+
+    <Section>
+       <h1>Justify Content: Space Between</h1> 
+        <div id="container5">
+    <div class="item item-1"><h3>Item 1</h3></div>
+    <div class="item item-2"><h3>Item 2</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+    </div>
+
+</Section>
+
+
+    <Section>
+       <h1>Justify Content: Center</h1> 
+        <div id="container3">
+    <div class="item item-1"><h3>Item 1</h3></div>
+    <div class="item item-2"><h3>Item 2</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+    </div>
+</Section>
+
+</body>
+</html>
