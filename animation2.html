@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   body {
+       background: #222;
+    }
+    .box{
+        width:200px;
+        height:150px;
+        background-color: #f3f3f3;
+        animation-name: animate1;
+        position: relative;
+        animation: animate1 15s forwards ease-in;
+    }
+    @keyframes animate1{
+        0%{
+            top:0;
+            left:0;
+        }
+        25%{
+            top:0;
+            left:700px;
+        }
+        50%{
+            top:700px;
+            left:700px;
+            background: #f3fe;
+            border-radius: 30% 0 0;
+        }
+        75%{
+            top: 700px;
+            left:0px;
+            background-color: brown;
+            border-radius: 0 50% 0;
+        }
+        100%{
+            top:0;
+            left:0;
+
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>
