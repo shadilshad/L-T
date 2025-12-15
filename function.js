@@ -46,3 +46,22 @@ console.log(`the written number is ${userNumber} and the multiplied number is ${
     alert(`gets ${result}`);
 
 
+
+
+
+
+
+function addition(numbers){
+    alert(`the number 5 added with ${numbers} is `);
+    return numbers+5;
+}
+let userNumbers = Number(prompt("tell me a number"));
+let results = addition(userNumbers);
+console.log(`the given number is ${userNumbers} and the result is ${results}`);
+alert(`are u still waiting? `);
+let state= "yes";
+while(state=="yes"){
+    state = prompt("yes or no");
+alert("aight aight")
+}
+alert(`its nothing but ${results}`);
