@@ -1,0 +1,28 @@
+        body{
+            height: 100vh;
+            display: block;
+            text-align: center;
+            background: gray;
+            padding: 0%;
+            margin: 0%;
+        }
+        h1{
+            color:wheat;
+            margin-top: 4rem;
+        }
+        p{
+            line-height: 1.5rem;
+        }
+button{
+    margin-bottom: 0.5rem;
+    width:200px;
+    display:flex;
+    justify-content: center;
+}
+.idk{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
