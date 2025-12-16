@@ -1,0 +1,18 @@
+        body{
+            background: #333;
+        }
+        .box{
+    width:200px;
+    height:200px;
+    background: whitesmoke;
+    animation-name:animate1;
+    animation: animate1 5s forwards 1s ease-in-out;
+        }
+@keyframes animate1{
+        to{
+            width:600px;
+            background: red;
+        }
+    
+}
+    
